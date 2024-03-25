@@ -11,7 +11,7 @@
       state: present
 
   - name: create roboshhop user
-    ansible.buitin.user:
+    ansible.builtin.user:
       name: roboshop
 
   - name: create app directory
