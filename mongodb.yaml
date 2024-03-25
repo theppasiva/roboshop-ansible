@@ -1,7 +1,7 @@
 - name: mongodb
-   hosts: localhost
-   become: yes
-   tasks:
+  hosts: localhost
+  become: yes
+  tasks:
    - name: copy mongod repo
      ansible.builtin.copy:
       src: mongodb.repo
